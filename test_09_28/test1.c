@@ -5,16 +5,8 @@
 int main()
 {
     int a = 10;
-    char b = 'C';
+    int *p = &a;
 
-    int *pa = &a;
-    char *pb = &b;
-
-    *pa = 20;
-    *pb = 'A';
-
-    printf("%d\n", *pa);
-    printf("%c\n", *pb);
-
+    printf("%d\n", *p);
     return 0;
 }

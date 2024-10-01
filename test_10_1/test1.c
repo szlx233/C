@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
+void tts(void);
+
+
+void tts(void)
+{
+    printf("Hello World\n");
+}
+
+
 int main()
 {
     char a[] = "Oringinal string";

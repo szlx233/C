@@ -1,9 +1,15 @@
 #include <stdio.h>
-#include <time.h>
+#include <string.h>
 
 int main()
 {
-    printf("%d",time(NULL));
+    char a[] = "Oringinal string";
+    char b[20];
+
+    strncpy(b, a, 6);
+    b[6] = '\0';
+
+    printf("%s\n", b);
 
     return 0;
 }

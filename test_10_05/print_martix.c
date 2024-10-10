@@ -2,7 +2,8 @@
 
 int main()
 {
-    int score[5][6] = {0};
+    int score[5][6] = {};
+    
     int i,j;
     
     for (i=0;i<5;i++)
